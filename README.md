@@ -1,6 +1,5 @@
 # temukk-s-lab6
 optional gne
-<html>
     <head>
         <title>Pinterest</title>
         <meta charset="utf-8">
@@ -84,4 +83,3 @@ optional gne
             </table>
         </div>
     </body>
-</html>
