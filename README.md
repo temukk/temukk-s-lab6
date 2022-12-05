@@ -2,6 +2,7 @@
     <head>
         <title>Pinterest</title>
         <meta charset="utf-8">
+        <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="labseo.css" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
