@@ -93,3 +93,60 @@
 #pic:hover{
     opacity: calc(50%);
 }
+@media only screen and (max-width: 600px) {
+    #main {
+        flex-direction: column;
+    }
+    #content {
+        width: auto;
+    }
+    .rightbar {
+        width: auto;
+    }
+    #general {
+        width: auto;
+        height: 100%;
+        margin: 0;
+    }
+    #mtitle  {
+        width: 100vw;
+    }
+    #bgreen {
+        padding: 10px 15%;
+    }
+    #bred {
+        padding: 10px 15%;
+    }
+    #mtitle  #button {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    #main {
+        height: fit-content;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+    #content iframe {
+        min-height: 40%;
+    }
+    #general {
+        height: 100vh;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+    #content iframe {
+        height: 60%;
+    }
+}
+@media only screen and (min-width: 1360px){
+    #general {
+        height: 100vh;
+    }
+    #content {
+        height: auto;
+    }
+}
