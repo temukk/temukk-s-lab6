@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /wp-admin/
+Disallow: /thank-you/
+Noindex: /thankyou/ 
 Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://seocrawl.com/sitemap_index.xml
+Sitemap: https://www.google.com/sitemap.xml
