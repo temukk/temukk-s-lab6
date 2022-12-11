@@ -77,8 +77,8 @@
 #pic{
     margin-top: 0%;
     margin-bottom: 15%;
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
     vertical-align: top;
     border-radius: 20px;
 }
