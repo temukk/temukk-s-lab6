@@ -7,6 +7,8 @@
         <link href="labseo.css" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="preload" href="styles.css" as="style" />
+        <link rel="preload" href="ui.js" as="script" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
@@ -20,19 +22,20 @@
     <body class="everything">
         <div class="headline">
             <div class="header">
-            See anything you don't like? Let's edit your home feed!
+            <h2>See anything you don't like? Let's edit your home feed!
             <input id="not" type="button" value="Not now">
             <input id="edit" type="button" value="Edit my home feed">
+        </h2>
             </div>
         </div>
         <div class="seo">
             <a id="pint" href="#top"><i class="fa fa-pinterest"></i></a>
-            <input id="home" type="button" value="Home">
+            <input id="home" type="submit" value="Home">
             <input id="create" type="button" value="Create">
             <i class="fa fa-search" ></i>
-            <a href="#"></a> <input  type="search" placeholder="Search.." id="search">
-            <a href="#"><i class="fa fa-bell"></i></a> &emsp;
-            <a href="#"><i class='fa fa-comments'></i></a> &emsp;
+            <a href="https://www.pinterest.com/"></a> <input  type="search" placeholder="Search.." id="search">
+            <a href="https://www.pinterest.com/"><i class="fa fa-bell"></i></a> &emsp;
+            <a href="https://www.pinterest.com/"><i class='fa fa-comments'></i></a> &emsp;
         </div>
         <div class="main_content_container">
             <table id="grid">
